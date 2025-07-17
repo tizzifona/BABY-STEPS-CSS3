@@ -35,17 +35,19 @@ Recreate the following image using HTML5 and CSS3.
 ### ✳️ 4. Replication
 
 Recreate the following image using HTML5 and CSS3 (_If you want to challenge yourself, you can use Flexbox or Grid Layout_).
+
 [![temp-Imagecl-Lail.avif](https://i.postimg.cc/9FxNLSYc/temp-Imagecl-Lail.avif)](https://postimg.cc/1fqHtvdd)
 
-# Run with Docker
 
-## Build the Docker image
+## 🐋 5. Run with Docker
+
+### Build the Docker image
 
 ```sh
 docker build -t baby-steps-css .
 ```
 
-## Run the Docker container
+### Run the Docker container
 
 ```sh
 docker run -d -p 8080:80 --name baby-steps-css baby-steps-css
@@ -55,7 +57,7 @@ Now open your browser and go to [http://localhost:8080](http://localhost:8080) t
 
 ---
 
-## Notes
+### ✳️ Notes
 
 - Make sure you have [Docker installed](https://docs.docker.com/get-docker/).
 - The site will be served using nginx inside the container.
